@@ -1,0 +1,14 @@
+body{background-color: antiquewhite;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3{  /* centramos el texto, le agregamos un margen y color*/
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  background-color: black;
+  color: azure;
+}
+.contenedor {
+    background-color: rgb(245, 238, 220);
+}
