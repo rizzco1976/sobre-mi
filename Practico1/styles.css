@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(127, 226, 139);
+}
+* {
+  box-sizing: border-box;
+}
+.fondo {
+  width: 550px;
+  height: auto;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(165, 232, 225);
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px black;
+  border: 20px outset black;
+}
+
+.fondo h1 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#result {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+
+.container input {
+  height: 40px;
+  margin: 40px auto;
+  border-radius: 0px;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color:rgb(209, 246, 236);
+}
+
+.container select {
+  height: 40px;
+  margin-left: 0px;
+  border: 5px outset rgb(106, 145, 229);
+  border-radius: 0%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+  background-color:khaki;
+}
+
+.container select option {
+  background-color: rgb(230, 160, 234);
+}
+
+.container select #option1 {
+  background-color:goldenrod;
+  font-weight: bolder;
+  color: black;
+}
+
+.numeros {
+  height: 20px;
+  width: 150px;
+  margin: 20px;
+}
+
+button {
+  border-radius: 0%;
+  border: 0px;
+  height: 40px;
+  width: 80px;
+  box-shadow: 0 10px black;
+  background-color: grey;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  
+}
+
+#calcular {
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+#borrar {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+#calcular:active {
+  background-color: crimson;
+}
+
+#borrar:active {
+  background-color: chartreuse;
+}
