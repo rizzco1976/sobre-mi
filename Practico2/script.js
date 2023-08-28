@@ -71,13 +71,13 @@ function iniciarTurno(e) {
     contenedorEleccionUsuario.innerText = eleccionUsuario;
     contenedorEleccionPC.innerText = eleccionPC;
 
-    if (puntosUsuario === 5 || puntosPC === 5) {
+    if (puntosUsuario === 3 || puntosPC === 5) {
 
-        if (puntosUsuario === 5) {
+        if (puntosUsuario === 3) {
             instrucciones.innerText = "🎉 ¡Ganaste el juego! 🎉"
         }
 
-        if (puntosPC === 5) {
+        if (puntosPC === 3) {
             instrucciones.innerText = "😭 ¡La computadora ganó el juego! 😭"
         }
 
