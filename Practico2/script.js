@@ -71,7 +71,7 @@ function iniciarTurno(e) {
     contenedorEleccionUsuario.innerText = eleccionUsuario;
     contenedorEleccionPC.innerText = eleccionPC;
 
-    if (puntosUsuario === 3 || puntosPC === 5) {
+    if (puntosUsuario === 3 || puntosPC === 3) {
 
         if (puntosUsuario === 3) {
             instrucciones.innerText = "🎉 ¡Ganaste el juego! 🎉"
@@ -116,5 +116,5 @@ function reiniciarJuego() {
     contenedorPuntosUsuario.innerText = puntosUsuario;
     contenedorPuntosPC.innerText = puntosPC;
 
-    instrucciones.innerText = "El primero en llegar a 5 puntos gana."
+    instrucciones.innerText = "El primero en llegar a 3 puntos gana."
 }
