@@ -21,7 +21,6 @@ jugador = jugador.charAt(0).toUpperCase() + jugador.slice(1).toLowerCase();
 
 let nombre = document.querySelector(".nombre-jugador");
 
-
 // Valida que siempre se ingrese un nombre, no algo vacío o números y luego ingresa el nombre del jugador en el marcador.
 if (jugador == null || !isNaN(jugador)) {
     alert("No has introducido tu nombre! Por favor, recarga la página e intentalo de nuevo.");
